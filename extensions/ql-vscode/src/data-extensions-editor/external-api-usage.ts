@@ -14,6 +14,7 @@ export type ExternalApiUsage = {
   typeName: string;
   methodName: string;
   methodParameters: string;
+  kind: string;
   supported: boolean;
   usages: Call[];
 };
